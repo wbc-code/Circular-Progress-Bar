@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circular Progress Bar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="percent" style="--clr: #04fc43; --num: 75">
+          <div class="dot"></div>
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70"></circle>
+          </svg>
+          <div class="number">
+            <h3>75<span>%</span></h3>
+            <p>HTML</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="percent" style="--clr: #03a4ff; --num: 60">
+          <div class="dot"></div>
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70"></circle>
+          </svg>
+          <div class="number">
+            <h3>60<span>%</span></h3>
+            <p>CSS</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="percent" style="--clr: #e705be; --num: 50">
+          <div class="dot"></div>
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70"></circle>
+          </svg>
+          <div class="number">
+            <h3>50<span>%</span></h3>
+            <p>Linux</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
